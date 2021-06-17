@@ -212,3 +212,68 @@ footer{
     color: #0011a8;
     text-decoration: underline;
 }
+
+.PageSlice{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #E6E6E6;
+    height: 50px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.Catalog{
+    display: flex;
+    flex-direction: column;
+}
+
+.CatalogRow{
+    display: flex;
+}
+
+.CatalogBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.63);
+    margin: 35px 22px;
+    padding: 16px 16px;
+    width: 216px;
+}
+
+.CatalogImg{
+    margin-bottom: 16px;
+}
+
+.CatalogH{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 26px ;
+}
+
+.Buy a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.Buy a:hover{
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+}
+
+.Buy{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    width: 216px;
+}
+
+#RowTwo{
+    margin-bottom: 110px;
+}
+
+#RowOne{
+    margin-bottom: 550px;
+}
