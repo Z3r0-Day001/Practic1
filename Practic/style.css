@@ -1,0 +1,214 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.HeaderWrapper{
+    background-color: #2B99FE;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.Logo{
+    display: flex;
+    margin: 0;
+}
+
+.LogoImg{
+    width: 34px;
+    margin: 0;
+}
+
+.LogoTxt{
+    color: white;
+    font-size: 36px;
+    margin-right: 70px;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#Costume{
+    margin-left: 70px;
+}
+
+.NavFlag{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 223px;
+    transition: 1s;
+}
+
+.NavFlag:hover{
+    color: rgb(173, 173, 173);
+}
+
+.Pattern{
+    background: url(img/Xz.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.PatternWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PatH{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 11px;
+}
+
+.PatTxt{
+    font-size: 24px;
+    color: #5B5B5B;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.BtnPattern{
+    text-decoration: none;
+    color: #0015CE;
+    font-size: 36px;
+    margin-bottom: 146px;
+}
+
+.BtnPattern:hover{
+    text-decoration: underline;
+}
+
+.Slice{
+    background-color: #F1B457;
+    height: 15px;
+}
+
+.Social{
+    background-color: white;
+}
+
+.SocialWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.SocialBlockOne{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SocialBlockTwo{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 97px;
+}
+
+.Vk{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(214.32deg, #43A5FF 12.03%, #8F00FF 90.04%);
+    width: 48%;
+    height: 445px;
+}
+
+.Discord{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(222.73deg, #F39200 -13.46%, #8F00FF 88.48%);
+    width: 48%;
+    height: 445px;
+}
+
+.Telegram{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(226.14deg, #EDA4FF -2.65%, #569AFF 84.57%);
+    width: 48%;
+    height: 445px;
+}
+
+.Instagram{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(229.71deg, #FF4343 18.63%, #8F00FF 93.66%);
+    width: 48%;
+    height: 445px;
+}
+
+.SocialH{
+    color: #5671FF;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.SocialN{
+    font-size: 48px;
+    color: white;
+    margin-top: 163px;
+}
+
+.SocialNA{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.SocialNA:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #D5D5D5;
+    height: 148px;
+    width: 100%;
+}
+
+.FooterWrapper{
+    width: 950px;
+    display: flex;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.Polit{
+    display: flex;
+    flex-direction: column;
+}
+
+.FotP{
+    width: 209px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.FotBtn{
+    font-size: 14px;
+    text-decoration: none;
+    color: #0015CE;
+    transition: 0.5s;
+}
+
+.FotBtn:hover{
+    color: #0011a8;
+    text-decoration: underline;
+}
